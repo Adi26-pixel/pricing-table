@@ -159,3 +159,62 @@ body {
 .price-table .get-started-box a {
   color: #ffffff !important;
 }
+
+@media screen and (max-width: 1024px) {
+  .price-table th:nth-child(2) {
+    display: none;
+  }
+
+  .price-table td:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .textbox {
+    max-width: 388px;
+  }
+
+  .textbox h2 {
+    font-size: 2rem;
+  }
+
+  .price-table .price {
+    font-size: 2rem;
+  }
+
+  .price-table td:first-child {
+    padding: 0.2em;
+    margin-left: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .price-table .popular {
+    padding: 0.2em 0.5em;
+  }
+
+  .price-table tr:last-child td a {
+    padding: 0.1em;
+  }
+
+  .price-table th:nth-child(3) {
+    display: none;
+  }
+
+  .price-table td:nth-child(3) {
+    display: none;
+  }
+
+  .price-table th:nth-child(5) {
+    order: 1;
+  }
+
+  .price-table td:nth-child(5) {
+    order: 1;
+  }
+
+  .price-table .down-arrow {
+    display: none;
+  }
+}
