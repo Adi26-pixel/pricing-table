@@ -27,6 +27,7 @@ body {
 
 .author-info a {
   text-decoration: none;
+  color: #263fa9;
 }
 
 .heading {
@@ -184,14 +185,13 @@ body {
   }
 
   .price-table td:first-child {
-    padding: 0.2em;
-    margin-left: 2em;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
   }
 
   .price-table .popular {
-    padding: 0.2em 0.5em;
+    padding: 0.1em 0.5em;
   }
 
   .price-table tr:last-child td a {
