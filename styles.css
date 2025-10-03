@@ -7,17 +7,155 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Be Vietnam Pro", sans-serif;
+  background: #f8fafc;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(resources/bg-pattern.png);
+  background-position: center;
 }
 
 .author-info {
   font-size: 14px;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: rgb(55, 65, 81);
 }
 
 .author-info a {
   text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+}
+
+.textbox {
+  max-width: 468px;
+  margin: auto;
+}
+
+.textbox h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 52px;
+  margin-bottom: 12px;
+}
+
+.textbox p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4d5562;
+  line-height: 1.5;
+  padding-bottom: 52px;
+}
+
+.table-container {
+  background: #ffffff;
+  width: 100vw;
+}
+
+.price-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 4em auto;
+  max-width: 1200px;
+}
+
+.price-table thead {
+  margin-bottom: 3em;
+}
+
+.price-table th {
+  padding: 1.5em 0;
+  font-weight: 600;
+  color: #263fa9;
+}
+
+.price-table .price {
+  color: #121826;
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 0.375em 0;
+}
+
+.price-table .month {
+  font-weight: 400;
+  color: #4d5562;
+}
+
+.price-table td {
+  border-bottom: 2px solid #f8fafc;
+  padding: 1.3em;
+}
+
+.price-table td:first-child {
+  background: #f8fafc;
+  text-align: left;
+  font-weight: 600;
+  color: #121826;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.price-table .top-left-corner {
+  border-top-left-radius: 16px;
+}
+
+.price-table .bottom-left-corner {
+  border-bottom-left-radius: 16px;
+}
+
+.price-table tr:last-child td {
+  border-bottom: none;
+  background-color: #ffffff;
+}
+
+.price-table tr:last-child td a {
+  padding: 0 2.5em;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #263fa9;
+}
+
+.price-table .popular-box {
+  background: #121826;
+  color: #ffffff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 0.5em;
+}
+
+.price-table .popular-box .price,
+.price-table .popular-box .month {
+  color: #ffffff;
+}
+
+.price-table .popular {
+  background: #263fa9;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 0.3em 0.75em;
+}
+
+.price-table td:nth-child(4) {
+  background: #121826;
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.price-table .get-started-box {
+  background: #7c4f1e !important;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.price-table .get-started-box a {
+  color: #ffffff !important;
 }
